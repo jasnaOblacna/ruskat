@@ -1274,7 +1274,7 @@ class Ps_Emailsubscription extends Module implements WidgetInterface
             if ($res = Db::getInstance()->ExecuteS($sql)) {
                 return json_encode($res);
             }
-            return json_encode($this->l('Newsletter subscription: Unable to export customer using email.'));
+            return json_encode($this->l('Prijava na novice: Ni podatkov o prijavi na novice za tega uporabnika.'));
        }
    }
 }
