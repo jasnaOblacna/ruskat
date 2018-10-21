@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>psaddonsconnect</name>
+    <displayName><![CDATA[Modul Nasveti in posodobitve]]></displayName>
+    <version><![CDATA[1.0.1]]></version>
+    <description><![CDATA[Zahvaljujoč temu modulu se povežite s svojim računom Addons na nadzorni plo&scaron;či va&scaron;e back-office]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[]]></tab>
+	<confirmUninstall><![CDATA[Ste prepričani, da želite odstraniti ta modul?]]></confirmUninstall>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

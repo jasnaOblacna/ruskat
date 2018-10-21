@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>statsforecast</name>
+    <displayName><![CDATA[Tabela s statistiko]]></displayName>
+    <version><![CDATA[2.0.3]]></version>
+    <description><![CDATA[To je glavni modul za nadzorno plo&scaron;čo statistike. Povzema vse va&scaron;e statistike.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_legalcompliance</name>
+    <displayName><![CDATA[Pravna ustreznost]]></displayName>
+    <version><![CDATA[3.0.0]]></version>
+    <description><![CDATA[Ta modul je v pomoč evropskim trgovcem v skladu z veljavnimi zakoni e-poslovanje.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Ste prepričani, da želite odstraniti ta modul?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

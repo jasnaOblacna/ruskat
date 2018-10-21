@@ -1,0 +1,38 @@
+#content.bootstrap h3:not(.modal-title) .panel-heading-action a.list-toolbar-btn i, #content.bootstrap .panel-heading .panel-heading-action a.list-toolbar-btn i{
+	font-size:28px;
+}
+#content.bootstrap h3:not(.modal-title) .panel-heading-action a.list-toolbar-btn, #content.bootstrap .panel-heading .panel-heading-action a.list-toolbar-btn{
+	color:#72c279;
+}
+.defaultForm .form-group .btn-default, .defaultForm .panel .panel-footer .btn{
+	color: #ffffff;
+    background-color: #2eacce;
+    border-color: #2d98b5;
+}
+.defaultForm .form-group .btn.btn-default i, .defaultForm .panel .panel-footer .btn i {
+    color: #fff;
+}
+.defaultForm .form-group .btn-default:hover, .defaultForm .panel .panel-footer .btn:hover{
+    background-color: #00aff0;
+}
+.bootstrap .form-group .form-group{
+	margin-bottom: 0;
+}
+.mce-tinymce > .mce-container-body{
+	border: 1px solid #d3d8db !important;
+}
+
+/*********** Paypal logo **************/
+.paypal_logo_container {position: relative;padding-top: 15px;}
+.paypal_logo_link {
+    position: absolute;
+    top: 3px;
+    background-color: #000000;
+    color: #ffffff !important;
+    width: 15px;
+    border-radius: 6px;
+    height: 15px;
+    text-align: center;
+    line-height: 12px;
+    left: 0px;
+}

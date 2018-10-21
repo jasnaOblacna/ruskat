@@ -1,0 +1,59 @@
+[25-Aug-2018 12:30:37 Europe/Ljubljana] PHP Fatal error:  Uncaught exception 'Symfony\Component\Filesystem\Exception\IOException' with message 'Cannot rename "/home/mojasp03/public_html/test-ruska/app/cache/prod/translations/catalogue.en-US.8739602554c7f3241958e3cc9b57fdecb474d508.phprUyGGe" to "/home/mojasp03/public_html/test-ruska/app/cache/prod/translations/catalogue.en-US.8739602554c7f3241958e3cc9b57fdecb474d508.php".' in /home/mojasp03/public_html/test-ruska/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php:291
+Stack trace:
+#0 /home/mojasp03/public_html/test-ruska/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php(614): Symfony\Component\Filesystem\Filesystem->rename('/home/mojasp03/...', '/home/mojasp03/...', true)
+#1 /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache(3128): Symfony\Component\Filesystem\Filesystem->dumpFile('/home/mojasp03/...', '<?php\n\nuse Symf...', NULL)
+#2 /home/mojasp03/public_html/test-ruska/vendor/symfony/symfony/src/Symfony/Component/Translation/Translator.php(360): Symfony\Component in /home/mojasp03/public_html/test-ruska/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php on line 291
+[30-Aug-2018 20:32:03 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10744 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[30-Aug-2018 20:32:14 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10744 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[30-Aug-2018 20:34:51 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16128 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[30-Aug-2018 20:51:27 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10560 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[30-Aug-2018 20:57:51 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 3024 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[30-Aug-2018 20:57:56 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16128 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[30-Aug-2018 20:58:08 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 3024 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[30-Aug-2018 21:02:02 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12196 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[07-Sep-2018 08:58:12 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminEmployeesController.php on line 660
+[07-Sep-2018 08:59:30 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminEmployeesController.php on line 660
+[18-Sep-2018 19:07:46 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminEmployeesController.php on line 660
+[18-Sep-2018 21:39:32 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2469 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[18-Sep-2018 21:39:36 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2469 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[18-Sep-2018 21:39:46 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9876 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[18-Sep-2018 21:55:37 Europe/Ljubljana] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to write in the cache directory (/home/mojasp03/public_html/test-ruska/app/cache/prod)
+' in /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache:2802
+Stack trace:
+#0 /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache(2757): Symfony\Component\HttpKernel\Kernel->buildContainer()
+#1 /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache(2533): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#2 /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache(2564): Symfony\Component\HttpKernel\Kernel->boot()
+#3 /home/mojasp03/public_html/test-ruska/admin888/index.php(86): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, false)
+#4 {main}
+  thrown in /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache on line 2802
+[18-Sep-2018 21:55:37 Europe/Ljubljana] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to write in the cache directory (/home/mojasp03/public_html/test-ruska/app/cache/prod)
+' in /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache:2802
+Stack trace:
+#0 /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache(2757): Symfony\Component\HttpKernel\Kernel->buildContainer()
+#1 /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache(2533): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#2 /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache(2564): Symfony\Component\HttpKernel\Kernel->boot()
+#3 /home/mojasp03/public_html/test-ruska/admin888/index.php(86): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, false)
+#4 {main}
+  thrown in /home/mojasp03/public_html/test-ruska/app/bootstrap.php.cache on line 2802
+[26-Sep-2018 18:47:12 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/src/Adapter/Module/AdminModuleDataProvider.php on line 349
+[26-Sep-2018 18:47:14 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/src/Adapter/Module/AdminModuleDataProvider.php on line 349
+[26-Sep-2018 19:04:17 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:04:44 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:06:17 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:11:22 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:13:54 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:20:33 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:21:16 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:22:29 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 19:23:55 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/src/Adapter/Module/AdminModuleDataProvider.php on line 349
+[26-Sep-2018 19:23:55 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/src/Adapter/Module/AdminModuleDataProvider.php on line 349
+[26-Sep-2018 19:25:52 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[26-Sep-2018 20:12:31 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[02-Oct-2018 16:56:04 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminEmployeesController.php on line 660
+[02-Oct-2018 16:56:07 Europe/Ljubljana] PHP Warning:  Invalid argument supplied for foreach() in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminEmployeesController.php on line 660
+[07-Oct-2018 19:23:56 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[07-Oct-2018 19:25:33 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[07-Oct-2018 19:37:36 Europe/Ljubljana] PHP Warning:  array_map(): Argument #2 should be an array in /home/mojasp03/public_html/test-ruska/controllers/admin/AdminStoresController.php on line 590
+[07-Oct-2018 20:01:17 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4032 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[07-Oct-2018 20:01:19 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 11116 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545
+[07-Oct-2018 20:01:27 Europe/Ljubljana] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 11116 bytes) in /home/mojasp03/public_html/test-ruska/classes/ImageManager.php on line 545

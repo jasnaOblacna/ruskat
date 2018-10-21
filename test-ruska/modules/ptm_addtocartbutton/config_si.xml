@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ptm_addtocartbutton</name>
+    <displayName><![CDATA[Add to Cart Button]]></displayName>
+    <version><![CDATA[1.1.3]]></version>
+    <description><![CDATA[A module that will add &ldquo;Add to cart&rdquo; functionality to all product boxes.]]></description>
+    <author><![CDATA[Presta Theme Maker]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Ste prepričani, da želite odstraniti ta modul?]]></confirmUninstall>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>statsorigin</name>
+    <displayName><![CDATA[Izvor obiskovalcev]]></displayName>
+    <version><![CDATA[2.0.2]]></version>
+    <description><![CDATA[Doda graf, ki prikazuje strani iz katerih so pri&scaron;li va&scaron;i obiskovalci v nadzorno plo&scaron;čo statistike.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

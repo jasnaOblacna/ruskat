@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_c00185326417dfc6259c90dc30954f87'] = 'Избранные категории и подкатегории на главной';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_5e3b92b8e61d665689d2e779954a3eb8'] = 'Отображает Категории, Подкатегории в середине главной странице.';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_7b19b37e7fc3dfe3c3e1ad5b84c7f565'] = 'Главная страница';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_eb763a2e313718f33f55e1f0d84df6ee'] = 'Страница товара';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_af2938c27da66feb4ee450260666012f'] = 'Неверное число столбцов';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_6cdbbf8dc7a64916b7fea20dd36f41ec'] = 'Неверное число для длины описания подкатегорий';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_16251e8d473e47680263de49c55f981b'] = 'Ваши настройки были обновлены';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_a6a2a55bea8760389dfca77132905b7c'] = 'Все категории';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_f4f70727dc34561dfde1a3c529b6205c'] = 'Настройки';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_19ac8c75dc1862d21600d00e68120fe6'] = 'Показывать модуль на страницах';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_d31cedf9ecb596ee5043d3a875ff2c9e'] = 'Удерживайте CRTL что бы выбрать несколько';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_f280fa799ad62963157619740b000a71'] = 'Показывать заголовок модуля';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Включено';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_b9f5c797ebbf55adccdd8539a65a0241'] = 'Выключено';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_6573aa2703ddf92494a3bc0a8126c7b6'] = 'Отображать все категории без вкладок';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_bad2a340cc1d47c687c593892f590e74'] = 'Отображать вкладку \"Все категории\"';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_20e4e256f2b2d9f6beb9271a23882383'] = 'Активная вкладка по умолчанию';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_8fb4c0a28c2e8a46160a46d987cbd3e5'] = 'Скрывать главные категории в \"Все категории\"';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_6093ef3401b796b0f1a999060e21e48c'] = 'Скрывать главные категории';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_8b47929379127f76d169e58823b25b83'] = 'Показывать подкатегории';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_4f051544ad5b9456ddf0828e825bb696'] = 'Показывать описание подкатегорий';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_3b20ba30e9609686746c5c41ae072039'] = 'Максимальная длина описания подкатегорий';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_430b2b8be483cbea9549e5a5c040eeca'] = 'По умолчании 100';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_2167718a95f18bb22be9d624d1c91043'] = 'Количество колонок для подкатегорий';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_167477b325dfcdb47b5dd0d239337060'] = 'По умолчании 4';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_94b76623a00cd121d7d28a7860896d88'] = 'Тип изображения';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_ca08cfe88ceb7e8d69681628cc59d14b'] = 'Тип изображения может быть добавлен или изменен в ';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_f4ee0d1ed4d4efc2111091e1a96d1ffe'] = 'Настройки -> изображения';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_d5ae68b96495d2b28f2cdec723346ff2'] = 'Скрывать подкатегории';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_96b4cf26fa238554ffbc7cefc17a5250'] = 'Избранные категории';
+$_MODULE['<{tabbedcathome}prestashop>tabbedcathome_873e116df30dd27a15f2991f1bcea412'] = 'Нет категории';

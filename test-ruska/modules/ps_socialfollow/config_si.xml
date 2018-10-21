@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_socialfollow</name>
+    <displayName><![CDATA[Povezava za sledenje na družabnih omrežjih]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[Omogoča dodajanje podatkov o socialnih računih tvoje znamke.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

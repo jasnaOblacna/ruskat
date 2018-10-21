@@ -1,0 +1,174 @@
+#_desktop_cart .ptm_blockcart, #_mobile_cart .ptm_blockcart.display_mobile_cart {
+    position: relative;
+}
+.ptm_blockcart_body {
+    background-color: #ffffff;
+    color: #545454;
+    right: 0;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    z-index: 999;
+    display: none;
+    width: 270px;
+}
+.ptm_blockcart_body.noshadow{
+    box-shadow:0px 0px 0px 0 rgba(0, 0, 0, 0);
+}
+.ptm_blockcart_body.lightshadow{
+    box-shadow:0px 0px 7px 0 rgba(0, 0, 0, 0.10);
+}
+.ptm_blockcart_body.mediumshadow{
+    box-shadow:0px 0px 9px 0 rgba(0, 0, 0, 0.20);
+}
+.ptm_blockcart_body.strongshadow{
+    box-shadow:0px 0px 11px 0 rgba(0, 0, 0, 0.35);
+}
+.ptm_blockcart_body.ptm_blockcart_default .ptm_blockcart_list a,
+.ptm_blockcart_body.ptm_blockcart_default .ptm_blockcart_list a i{
+    color: #545454!important;
+}
+.ptm_blockcart_body .ptm_blockcart_list a,
+.ptm_blockcart_body .ptm_blockcart_list a i{
+    color: #545454;
+}
+.ptm_blockcart_body a:hover,
+.ptm_blockcart_body a:hover i{
+    color: #545454;
+}
+.ptm_blockcart_body.ptm_blockcart_default a.button_order_cart:hover,
+.ptm_blockcart_body.ptm_blockcart_default a.button_order_cart:hover i{
+    color: #fff!important;
+}
+.ptm_blockcart_body > a:first-child {
+    padding: 7px 10px 14px 16px;
+    background: #333;
+    display: block;
+    font-weight: bold;
+    color: #545454;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+a#dropdowncart_url {
+    text-decoration: none;
+}
+.ptm_blockcart_body .cart-total {
+    font-weight: bold;
+    padding: 10px 10px 22px;
+}
+.ptm_blockcart_body .cart-total .price {
+    font-size: 13px;
+    white-space: nowrap;
+    float: right;
+}
+.ptm_blockcart .ptm_blockcart_shipping_cost,
+.ptm_blockcart .ptm_blockcart_tax_cost,
+.ptm_blockcart .ptm_blockcart_total,
+.ptm_blockcart .ptm_blockcart_wrapping_cost {
+    float: right;
+}
+.ptm_blockcart_body .checkout-link a.button_order_cart {
+    border: medium none;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.ptm_blockcart_body .checkout-link a.button_order_cart span {
+    border: 1px solid #63c473;
+    font-size: 1.1em;
+    padding: 7px 0;
+}
+.ptm_blockcart .ptm_blockcart_list .remove_link {
+    position: absolute;
+    right: 7px;
+    top: 16px;
+}
+.ptm_blockcart .ptm_blockcart_list .remove_link a,
+.ptm_blockcart .ptm_blockcart_list .ajax_ptm_blockcart_remove_link {
+    display: inline-block;
+    font-size: 14px;
+}
+.ptm_blockcart .ptm_blockcart_list .remove_link a:hover,
+.ptm_blockcart .ptm_blockcart_list .ajax_ptm_blockcart_remove_link:hover {
+    color: #fff;
+}
+.ptm_blockcart .cart-images {
+    float: left;
+    margin-right: 10px;
+}
+.ptm_blockcart .cart-info {
+    overflow: hidden;
+    position: relative;
+    padding-right: 25px;
+}
+.ptm_blockcart .cart-info .product-name {
+    padding-bottom: 5px;
+    margin-top: -4px;
+    text-align: left;
+}
+.ptm_blockcart .cart-info .product-name a {
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
+}
+.ptm_blockcart .cart-info .quantity-formated {
+    text-transform: uppercase;
+    font-size: 10px;
+    white-space: normal;
+}
+.ptm_blockcart .cart-info .product-name .cart_block_product_name{
+    white-space: normal;
+    text-align: left;
+    display: inline;
+}
+.ptm_blockcart .cart-info .quantity-formated .quantity {
+    font-size: 15px;
+}
+.ptm_blockcart .cart-info > .price {
+    float: left;
+}
+.ptm_blockcart li {
+    font-weight: normal;
+    overflow: hidden;
+    padding: 20px 10px 16px 10px;
+    position: relative;
+}
+.ptm_blockcart li.cart_divider {
+    position: relative;
+    border-bottom: 1px dashed #ccc;
+    height: 1px;
+    padding: 0;
+    margin: 0 10px;
+}
+.ptm_blockcart li.cart_divider .customizations {
+    border-top: 1px dashed #333;
+}
+.ptm_blockcart .customizations li {
+    padding: 0px;
+    text-align: left;
+}
+.ptm_blockcart .customizations li .remove-from-cart {
+    position: absolute;
+    right: 0px;
+}
+.ptm_blockcart_body .cart-total .cart-prices-line {
+    border-bottom: 1px solid #515151;
+    overflow: hidden;
+    padding: 7px 0;
+}
+.cart-prices-line .label {
+    float: left;
+}
+.cart-prices-line.first-line {
+    border-bottom: 1px solid #ccc;
+}
+.ptm_blockcart_body a.button_order_cart i {
+    line-height: 23px !important;
+    margin-left: 5px;
+}
+.ptm_unvisible {
+    display: none;
+}
+.customization_row span {
+    font-size: 14px;
+}

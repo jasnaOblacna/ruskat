@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>dashproducts</name>
+    <displayName><![CDATA[Izdelki nadzorne plo&scaron;če]]></displayName>
+    <version><![CDATA[2.0.3]]></version>
+    <description><![CDATA[Doda blok s tabelo va&scaron;ih zadnjih naročil in razvrstitev va&scaron;ih izdelkov]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[dashboard]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

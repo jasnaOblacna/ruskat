@@ -1,0 +1,9 @@
+.ptm-addtocartbutton-link {
+    position: absolute;
+    top: -104px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ptm_hidden {
+	display: none !important;
+}

@@ -1,0 +1,23 @@
+#duplicated-custom-text {
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+    padding: 3.125rem;
+    text-align: center
+}
+#duplicated-custom-text h3 {
+    text-transform: uppercase;
+    color: #414141;
+    font-size: 1.5625rem;
+    font-weight: 700
+}
+#duplicated-custom-text p {
+    color: #414141;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+#duplicated-custom-text p .dark {
+    color: #acaaa6;
+    font-weight: 400
+}

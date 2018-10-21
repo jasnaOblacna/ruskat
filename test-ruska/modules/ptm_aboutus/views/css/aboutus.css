@@ -1,0 +1,27 @@
+#aboutus{
+    border-left: 0 solid #ebebeb;
+}
+@media (min-width: 767px) {
+    #aboutus.col-md-6{
+        margin-top: 20px;
+        border-left: 2px solid #ebebeb;
+        padding-left: 3rem;
+    }
+}
+@media (max-width: 991px){
+    #aboutus.col-md-6{
+        padding-left: 1.5rem;
+    }
+}
+@media (max-width: 767px) {
+    #aboutus, #aboutus.col-md-6{
+        padding: .625rem .625rem 0;
+        border-bottom: 1px solid #f6f6f6;
+        margin-bottom: 24px;
+    }
+    .title .h3{
+        margin-bottom: 7px;
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+}
